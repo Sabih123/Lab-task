@@ -1,0 +1,15 @@
+
+public class main {
+
+	public static void main(String[] args){
+		
+		classes obj1 = new classes();
+		int sum=obj1.addition(2, 5);
+		System.out.println(sum);
+		System.out.println(obj1.addition(5,7));
+		obj1.subtraction(5,6);
+		obj1.division(10,5);
+		
+	}
+	
+}
